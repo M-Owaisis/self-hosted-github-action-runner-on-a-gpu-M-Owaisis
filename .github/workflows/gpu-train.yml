@@ -1,6 +1,8 @@
 name: GPU Accelerated Training
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   train-on-gpu:
